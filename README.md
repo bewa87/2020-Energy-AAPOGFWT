@@ -6,4 +6,4 @@ In this project, we develop a novel framework for annual averaged power output g
 
 Since our approach bases on R and GNU Octave, we can easily replace probability density functions or power curve models and our framework is therefore relatively flexible.
 
-Hint: The actual GNU Octave Version only works for single wind speed data files. We work on a full loop in R. 
+Hint: The actual GNU Octave Version only works for single wind speed data files. We suggest to use the R version of our algorithm with full loop of station data from station data directory.
