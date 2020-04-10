@@ -30,8 +30,8 @@ pow_log    <- pow_log[6:28]
 # CHOOSE YOUR PATH FOR HOURLY WIND SPEED DATA AND CHOOSE YOUR PATH
 # FOR META STATION DATA
 
-OFiles     <- list.files(path=".../Daten/Originaldaten", pattern="*.txt", full.names=TRUE, recursive=FALSE)
-SFiles     <- list.files(path=".../Daten/Stationsdaten", pattern="*.txt", full.names=TRUE, recursive=FALSE)
+OFiles     <- list.files(path=".../Daten/Original-Data", pattern="*.txt", full.names=TRUE, recursive=FALSE)
+SFiles     <- list.files(path=".../Daten/Station-Data", pattern="*.txt", full.names=TRUE, recursive=FALSE)
 
 # Build an Array for Data File Paths
 
